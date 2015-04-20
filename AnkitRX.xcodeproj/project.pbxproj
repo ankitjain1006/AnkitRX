@@ -6,11 +6,473 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		E3B683F618EFCDFB00CD8749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3B6838B18EFCDFA00CD8749 /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 68A32D7114102E1C006B237C;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3B6835718EFCDFA00CD8749 /* debug */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = debug; sourceTree = "<group>"; };
+		E3B6835818EFCDFA00CD8749 /* emulate */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = emulate; sourceTree = "<group>"; };
+		E3B6835918EFCDFA00CD8749 /* log */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = log; sourceTree = "<group>"; };
+		E3B6835B18EFCDFA00CD8749 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E3B6835D18EFCDFA00CD8749 /* CDV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDV.h; sourceTree = "<group>"; };
+		E3B6835E18EFCDFA00CD8749 /* CDVAvailability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVAvailability.h; sourceTree = "<group>"; };
+		E3B6835F18EFCDFA00CD8749 /* CDVCommandDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVCommandDelegate.h; sourceTree = "<group>"; };
+		E3B6836018EFCDFA00CD8749 /* CDVCommandDelegateImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVCommandDelegateImpl.h; sourceTree = "<group>"; };
+		E3B6836118EFCDFA00CD8749 /* CDVCommandDelegateImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVCommandDelegateImpl.m; sourceTree = "<group>"; };
+		E3B6836218EFCDFA00CD8749 /* CDVCommandQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVCommandQueue.h; sourceTree = "<group>"; };
+		E3B6836318EFCDFA00CD8749 /* CDVCommandQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVCommandQueue.m; sourceTree = "<group>"; };
+		E3B6836418EFCDFA00CD8749 /* CDVConfigParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVConfigParser.h; sourceTree = "<group>"; };
+		E3B6836518EFCDFA00CD8749 /* CDVConfigParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVConfigParser.m; sourceTree = "<group>"; };
+		E3B6836618EFCDFA00CD8749 /* CDVDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVDebug.h; sourceTree = "<group>"; };
+		E3B6836718EFCDFA00CD8749 /* CDVInvokedUrlCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVInvokedUrlCommand.h; sourceTree = "<group>"; };
+		E3B6836818EFCDFA00CD8749 /* CDVInvokedUrlCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVInvokedUrlCommand.m; sourceTree = "<group>"; };
+		E3B6836918EFCDFA00CD8749 /* CDVJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVJSON.h; sourceTree = "<group>"; };
+		E3B6836A18EFCDFA00CD8749 /* CDVJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVJSON.m; sourceTree = "<group>"; };
+		E3B6836B18EFCDFA00CD8749 /* CDVLocalStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVLocalStorage.h; sourceTree = "<group>"; };
+		E3B6836C18EFCDFA00CD8749 /* CDVLocalStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVLocalStorage.m; sourceTree = "<group>"; };
+		E3B6836D18EFCDFA00CD8749 /* CDVPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVPlugin.h; sourceTree = "<group>"; };
+		E3B6836E18EFCDFA00CD8749 /* CDVPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVPlugin.m; sourceTree = "<group>"; };
+		E3B6836F18EFCDFA00CD8749 /* CDVPluginResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVPluginResult.h; sourceTree = "<group>"; };
+		E3B6837018EFCDFA00CD8749 /* CDVPluginResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVPluginResult.m; sourceTree = "<group>"; };
+		E3B6837118EFCDFA00CD8749 /* CDVScreenOrientationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVScreenOrientationDelegate.h; sourceTree = "<group>"; };
+		E3B6837218EFCDFA00CD8749 /* CDVShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVShared.h; sourceTree = "<group>"; };
+		E3B6837318EFCDFA00CD8749 /* CDVShared.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVShared.m; sourceTree = "<group>"; };
+		E3B6837418EFCDFA00CD8749 /* CDVTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVTimer.h; sourceTree = "<group>"; };
+		E3B6837518EFCDFA00CD8749 /* CDVTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVTimer.m; sourceTree = "<group>"; };
+		E3B6837618EFCDFA00CD8749 /* CDVURLProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVURLProtocol.h; sourceTree = "<group>"; };
+		E3B6837718EFCDFA00CD8749 /* CDVURLProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVURLProtocol.m; sourceTree = "<group>"; };
+		E3B6837818EFCDFA00CD8749 /* CDVUserAgentUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVUserAgentUtil.h; sourceTree = "<group>"; };
+		E3B6837918EFCDFA00CD8749 /* CDVUserAgentUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVUserAgentUtil.m; sourceTree = "<group>"; };
+		E3B6837A18EFCDFA00CD8749 /* CDVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVViewController.h; sourceTree = "<group>"; };
+		E3B6837B18EFCDFA00CD8749 /* CDVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVViewController.m; sourceTree = "<group>"; };
+		E3B6837C18EFCDFA00CD8749 /* CDVWebViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVWebViewDelegate.h; sourceTree = "<group>"; };
+		E3B6837D18EFCDFA00CD8749 /* CDVWebViewDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVWebViewDelegate.m; sourceTree = "<group>"; };
+		E3B6837E18EFCDFA00CD8749 /* CDVWhitelist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVWhitelist.h; sourceTree = "<group>"; };
+		E3B6837F18EFCDFA00CD8749 /* CDVWhitelist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVWhitelist.m; sourceTree = "<group>"; };
+		E3B6838018EFCDFA00CD8749 /* NSArray+Comparisons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Comparisons.h"; sourceTree = "<group>"; };
+		E3B6838118EFCDFA00CD8749 /* NSArray+Comparisons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Comparisons.m"; sourceTree = "<group>"; };
+		E3B6838218EFCDFA00CD8749 /* NSData+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		E3B6838318EFCDFA00CD8749 /* NSData+Base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		E3B6838418EFCDFA00CD8749 /* NSDictionary+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extensions.h"; sourceTree = "<group>"; };
+		E3B6838518EFCDFA00CD8749 /* NSDictionary+Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extensions.m"; sourceTree = "<group>"; };
+		E3B6838618EFCDFA00CD8749 /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		E3B6838718EFCDFA00CD8749 /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		E3B6838818EFCDFA00CD8749 /* UIDevice+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extensions.h"; sourceTree = "<group>"; };
+		E3B6838918EFCDFA00CD8749 /* UIDevice+Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extensions.m"; sourceTree = "<group>"; };
+		E3B6838A18EFCDFA00CD8749 /* cordova.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = cordova.js; sourceTree = "<group>"; };
+		E3B6838B18EFCDFA00CD8749 /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		E3B6838E18EFCDFA00CD8749 /* CordovaLib_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CordovaLib_Prefix.pch; sourceTree = "<group>"; };
+		E3B6838F18EFCDFA00CD8749 /* VERSION */ = {isa = PBXFileReference; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
+		E3B6839018EFCDFA00CD8749 /* jquery-1.8.2.min.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "jquery-1.8.2.min.webarchive"; sourceTree = "<group>"; };
+		E3B6839118EFCDFA00CD8749 /* jquery.mobile-1.2.0.min.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "jquery.mobile-1.2.0.min.webarchive"; sourceTree = "<group>"; };
+		E3B6839218EFCDFA00CD8749 /* map.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = map.js; sourceTree = "<group>"; };
+		E3B6839418EFCDFA00CD8749 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E3B6839618EFCDFA00CD8749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3B6839718EFCDFA00CD8749 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E3B6839818EFCDFA00CD8749 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E3B6839918EFCDFA00CD8749 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E3B6839A18EFCDFA00CD8749 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		E3B6839B18EFCDFA00CD8749 /* PhoneDialer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneDialer.h; sourceTree = "<group>"; };
+		E3B6839C18EFCDFA00CD8749 /* PhoneDialer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneDialer.m; sourceTree = "<group>"; };
+		E3B6839D18EFCDFA00CD8749 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
+		E3B6839E18EFCDFA00CD8749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3B6839F18EFCDFA00CD8749 /* MyRx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyRx-Info.plist"; sourceTree = "<group>"; };
+		E3B683A018EFCDFA00CD8749 /* MyRx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyRx-Prefix.pch"; sourceTree = "<group>"; };
+		E3B683A218EFCDFA00CD8749 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		E3B683A418EFCDFA00CD8749 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Capture.bundle; sourceTree = "<group>"; };
+		E3B683A618EFCDFA00CD8749 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E3B683A718EFCDFA00CD8749 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E3B683A818EFCDFA00CD8749 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E3B683AA18EFCDFA00CD8749 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		E3B683AB18EFCDFA00CD8749 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		E3B683AC18EFCDFA00CD8749 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E3B683AD18EFCDFA00CD8749 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		E3B683AE18EFCDFA00CD8749 /* se */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = se; path = se.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E3B683B018EFCDFA00CD8749 /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
+		E3B683B118EFCDFA00CD8749 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		E3B683B218EFCDFA00CD8749 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		E3B683B318EFCDFA00CD8749 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		E3B683B418EFCDFA00CD8749 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		E3B683B518EFCDFA00CD8749 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~iphone.png"; sourceTree = "<group>"; };
+		E3B683B618EFCDFA00CD8749 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		E3B683B818EFCDFA00CD8749 /* camera.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = camera.html; sourceTree = "<group>"; };
+		E3B683B918EFCDFA00CD8749 /* cordova-2.2.0.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "cordova-2.2.0.js"; sourceTree = "<group>"; };
+		E3B683BB18EFCDFA00CD8749 /* index.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
+		E3B683BC18EFCDFA00CD8749 /* demo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
+		E3B683BD18EFCDFA00CD8749 /* disableTransition.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = disableTransition.js; sourceTree = "<group>"; };
+		E3B683BE18EFCDFA00CD8749 /* exercisetracker.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = exercisetracker.js; sourceTree = "<group>"; };
+		E3B683BF18EFCDFA00CD8749 /* home.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = home.html; sourceTree = "<group>"; };
+		E3B683C118EFCDFA00CD8749 /* ajax-loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ajax-loader.gif"; sourceTree = "<group>"; };
+		E3B683C218EFCDFA00CD8749 /* ajax-loader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ajax-loader.png"; sourceTree = "<group>"; };
+		E3B683C318EFCDFA00CD8749 /* icons-18-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-18-black.png"; sourceTree = "<group>"; };
+		E3B683C418EFCDFA00CD8749 /* icons-18-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-18-white.png"; sourceTree = "<group>"; };
+		E3B683C518EFCDFA00CD8749 /* icons-36-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-36-black.png"; sourceTree = "<group>"; };
+		E3B683C618EFCDFA00CD8749 /* icons-36-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-36-white.png"; sourceTree = "<group>"; };
+		E3B683C818EFCDFA00CD8749 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		E3B683C918EFCDFA00CD8749 /* index copy.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "index copy.rtf"; sourceTree = "<group>"; };
+		E3B683CA18EFCDFA00CD8749 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		E3B683CB18EFCDFA00CD8749 /* index1.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index1.html; sourceTree = "<group>"; };
+		E3B683CC18EFCDFA00CD8749 /* index2.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index2.html; sourceTree = "<group>"; };
+		E3B683CD18EFCDFA00CD8749 /* jquery-1.7.2.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jquery-1.7.2.min.js"; sourceTree = "<group>"; };
+		E3B683CE18EFCDFA00CD8749 /* jquery.mobile-1.1.0.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "jquery.mobile-1.1.0.min.css"; sourceTree = "<group>"; };
+		E3B683CF18EFCDFA00CD8749 /* jquery.mobile-1.1.0.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jquery.mobile-1.1.0.min.js"; sourceTree = "<group>"; };
+		E3B683D018EFCDFA00CD8749 /* jquery.ui.map.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jquery.ui.map.js; sourceTree = "<group>"; };
+		E3B683D218EFCDFA00CD8749 /* app.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
+		E3B683D318EFCDFA00CD8749 /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		E3B683D418EFCDFA00CD8749 /* json2.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = json2.js; sourceTree = "<group>"; };
+		E3B683D518EFCDFA00CD8749 /* map.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = map.html; sourceTree = "<group>"; };
+		E3B683D618EFCDFA00CD8749 /* mapoverlay.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = mapoverlay.js; sourceTree = "<group>"; };
+		E3B683D718EFCDFA00CD8749 /* myapp.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = myapp.js; sourceTree = "<group>"; };
+		E3B683D818EFCDFA00CD8749 /* PhoneDialer.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = PhoneDialer.js; sourceTree = "<group>"; };
+		E3B683DC18EFCDFA00CD8749 /* icon-57-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57-2x.png"; sourceTree = "<group>"; };
+		E3B683DD18EFCDFA00CD8749 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
+		E3B683DE18EFCDFA00CD8749 /* icon-72-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72-2x.png"; sourceTree = "<group>"; };
+		E3B683DF18EFCDFA00CD8749 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		E3B683E218EFCDFA00CD8749 /* screen-ipad-landscape-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-ipad-landscape-2x.png"; sourceTree = "<group>"; };
+		E3B683E318EFCDFA00CD8749 /* screen-ipad-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-ipad-landscape.png"; sourceTree = "<group>"; };
+		E3B683E418EFCDFA00CD8749 /* screen-ipad-portrait-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-ipad-portrait-2x.png"; sourceTree = "<group>"; };
+		E3B683E518EFCDFA00CD8749 /* screen-ipad-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-ipad-portrait.png"; sourceTree = "<group>"; };
+		E3B683E618EFCDFA00CD8749 /* screen-iphone-landscape-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-iphone-landscape-2x.png"; sourceTree = "<group>"; };
+		E3B683E718EFCDFA00CD8749 /* screen-iphone-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-iphone-landscape.png"; sourceTree = "<group>"; };
+		E3B683E818EFCDFA00CD8749 /* screen-iphone-portrait-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-iphone-portrait-2x.png"; sourceTree = "<group>"; };
+		E3B683E918EFCDFA00CD8749 /* screen-iphone-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-iphone-portrait.png"; sourceTree = "<group>"; };
+		E3B683EA18EFCDFA00CD8749 /* setting.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = setting.js; sourceTree = "<group>"; };
+		E3B683EC18EFCDFA00CD8749 /* helper.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = helper.js; sourceTree = "<group>"; };
+		E3B683ED18EFCDFA00CD8749 /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		E3B683F018EFCDFA00CD8749 /* jasmine-html.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jasmine-html.js"; sourceTree = "<group>"; };
+		E3B683F118EFCDFA00CD8749 /* jasmine.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = jasmine.css; sourceTree = "<group>"; };
+		E3B683F218EFCDFA00CD8749 /* jasmine.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jasmine.js; sourceTree = "<group>"; };
+		E3B683F318EFCDFA00CD8749 /* MIT.LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = MIT.LICENSE; sourceTree = "<group>"; };
+		E3B683F418EFCDFA00CD8749 /* spec.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = spec.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		E3B6834F18EFCD5300CD8749 = {
 			isa = PBXGroup;
 			children = (
+				E3B6835618EFCDFA00CD8749 /* cordova */,
+				E3B6835A18EFCDFA00CD8749 /* CordovaLib */,
+				E3B6839018EFCDFA00CD8749 /* jquery-1.8.2.min.webarchive */,
+				E3B6839118EFCDFA00CD8749 /* jquery.mobile-1.2.0.min.webarchive */,
+				E3B6839218EFCDFA00CD8749 /* map.js */,
+				E3B6839318EFCDFA00CD8749 /* MyRx */,
+				E3B683B718EFCDFA00CD8749 /* www */,
 			);
+			sourceTree = "<group>";
+		};
+		E3B6835618EFCDFA00CD8749 /* cordova */ = {
+			isa = PBXGroup;
+			children = (
+				E3B6835718EFCDFA00CD8749 /* debug */,
+				E3B6835818EFCDFA00CD8749 /* emulate */,
+				E3B6835918EFCDFA00CD8749 /* log */,
+			);
+			path = cordova;
+			sourceTree = "<group>";
+		};
+		E3B6835A18EFCDFA00CD8749 /* CordovaLib */ = {
+			isa = PBXGroup;
+			children = (
+				E3B6835B18EFCDFA00CD8749 /* .gitignore */,
+				E3B6835C18EFCDFA00CD8749 /* Classes */,
+				E3B6838A18EFCDFA00CD8749 /* cordova.js */,
+				E3B6838B18EFCDFA00CD8749 /* CordovaLib.xcodeproj */,
+				E3B6838E18EFCDFA00CD8749 /* CordovaLib_Prefix.pch */,
+				E3B6838F18EFCDFA00CD8749 /* VERSION */,
+			);
+			path = CordovaLib;
+			sourceTree = "<group>";
+		};
+		E3B6835C18EFCDFA00CD8749 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E3B6835D18EFCDFA00CD8749 /* CDV.h */,
+				E3B6835E18EFCDFA00CD8749 /* CDVAvailability.h */,
+				E3B6835F18EFCDFA00CD8749 /* CDVCommandDelegate.h */,
+				E3B6836018EFCDFA00CD8749 /* CDVCommandDelegateImpl.h */,
+				E3B6836118EFCDFA00CD8749 /* CDVCommandDelegateImpl.m */,
+				E3B6836218EFCDFA00CD8749 /* CDVCommandQueue.h */,
+				E3B6836318EFCDFA00CD8749 /* CDVCommandQueue.m */,
+				E3B6836418EFCDFA00CD8749 /* CDVConfigParser.h */,
+				E3B6836518EFCDFA00CD8749 /* CDVConfigParser.m */,
+				E3B6836618EFCDFA00CD8749 /* CDVDebug.h */,
+				E3B6836718EFCDFA00CD8749 /* CDVInvokedUrlCommand.h */,
+				E3B6836818EFCDFA00CD8749 /* CDVInvokedUrlCommand.m */,
+				E3B6836918EFCDFA00CD8749 /* CDVJSON.h */,
+				E3B6836A18EFCDFA00CD8749 /* CDVJSON.m */,
+				E3B6836B18EFCDFA00CD8749 /* CDVLocalStorage.h */,
+				E3B6836C18EFCDFA00CD8749 /* CDVLocalStorage.m */,
+				E3B6836D18EFCDFA00CD8749 /* CDVPlugin.h */,
+				E3B6836E18EFCDFA00CD8749 /* CDVPlugin.m */,
+				E3B6836F18EFCDFA00CD8749 /* CDVPluginResult.h */,
+				E3B6837018EFCDFA00CD8749 /* CDVPluginResult.m */,
+				E3B6837118EFCDFA00CD8749 /* CDVScreenOrientationDelegate.h */,
+				E3B6837218EFCDFA00CD8749 /* CDVShared.h */,
+				E3B6837318EFCDFA00CD8749 /* CDVShared.m */,
+				E3B6837418EFCDFA00CD8749 /* CDVTimer.h */,
+				E3B6837518EFCDFA00CD8749 /* CDVTimer.m */,
+				E3B6837618EFCDFA00CD8749 /* CDVURLProtocol.h */,
+				E3B6837718EFCDFA00CD8749 /* CDVURLProtocol.m */,
+				E3B6837818EFCDFA00CD8749 /* CDVUserAgentUtil.h */,
+				E3B6837918EFCDFA00CD8749 /* CDVUserAgentUtil.m */,
+				E3B6837A18EFCDFA00CD8749 /* CDVViewController.h */,
+				E3B6837B18EFCDFA00CD8749 /* CDVViewController.m */,
+				E3B6837C18EFCDFA00CD8749 /* CDVWebViewDelegate.h */,
+				E3B6837D18EFCDFA00CD8749 /* CDVWebViewDelegate.m */,
+				E3B6837E18EFCDFA00CD8749 /* CDVWhitelist.h */,
+				E3B6837F18EFCDFA00CD8749 /* CDVWhitelist.m */,
+				E3B6838018EFCDFA00CD8749 /* NSArray+Comparisons.h */,
+				E3B6838118EFCDFA00CD8749 /* NSArray+Comparisons.m */,
+				E3B6838218EFCDFA00CD8749 /* NSData+Base64.h */,
+				E3B6838318EFCDFA00CD8749 /* NSData+Base64.m */,
+				E3B6838418EFCDFA00CD8749 /* NSDictionary+Extensions.h */,
+				E3B6838518EFCDFA00CD8749 /* NSDictionary+Extensions.m */,
+				E3B6838618EFCDFA00CD8749 /* NSMutableArray+QueueAdditions.h */,
+				E3B6838718EFCDFA00CD8749 /* NSMutableArray+QueueAdditions.m */,
+				E3B6838818EFCDFA00CD8749 /* UIDevice+Extensions.h */,
+				E3B6838918EFCDFA00CD8749 /* UIDevice+Extensions.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E3B6838C18EFCDFA00CD8749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683F718EFCDFB00CD8749 /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3B6839318EFCDFA00CD8749 /* MyRx */ = {
+			isa = PBXGroup;
+			children = (
+				E3B6839418EFCDFA00CD8749 /* .gitignore */,
+				E3B6839518EFCDFA00CD8749 /* Classes */,
+				E3B6839D18EFCDFA00CD8749 /* Cordova.plist */,
+				E3B6839E18EFCDFA00CD8749 /* main.m */,
+				E3B6839F18EFCDFA00CD8749 /* MyRx-Info.plist */,
+				E3B683A018EFCDFA00CD8749 /* MyRx-Prefix.pch */,
+				E3B683A118EFCDFA00CD8749 /* Plugins */,
+				E3B683A318EFCDFA00CD8749 /* Resources */,
+			);
+			path = MyRx;
+			sourceTree = "<group>";
+		};
+		E3B6839518EFCDFA00CD8749 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E3B6839618EFCDFA00CD8749 /* AppDelegate.h */,
+				E3B6839718EFCDFA00CD8749 /* AppDelegate.m */,
+				E3B6839818EFCDFA00CD8749 /* MainViewController.h */,
+				E3B6839918EFCDFA00CD8749 /* MainViewController.m */,
+				E3B6839A18EFCDFA00CD8749 /* MainViewController.xib */,
+				E3B6839B18EFCDFA00CD8749 /* PhoneDialer.h */,
+				E3B6839C18EFCDFA00CD8749 /* PhoneDialer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E3B683A118EFCDFA00CD8749 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683A218EFCDFA00CD8749 /* README */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		E3B683A318EFCDFA00CD8749 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683A418EFCDFA00CD8749 /* Capture.bundle */,
+				E3B683A518EFCDFA00CD8749 /* Localizable.strings */,
+				E3B683A918EFCDFA00CD8749 /* icons */,
+				E3B683AF18EFCDFA00CD8749 /* splash */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E3B683A918EFCDFA00CD8749 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683AA18EFCDFA00CD8749 /* icon-72.png */,
+				E3B683AB18EFCDFA00CD8749 /* icon-72@2x.png */,
+				E3B683AC18EFCDFA00CD8749 /* icon.png */,
+				E3B683AD18EFCDFA00CD8749 /* icon@2x.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		E3B683AF18EFCDFA00CD8749 /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683B018EFCDFA00CD8749 /* Default-568h@2x~iphone.png */,
+				E3B683B118EFCDFA00CD8749 /* Default-Landscape@2x~ipad.png */,
+				E3B683B218EFCDFA00CD8749 /* Default-Landscape~ipad.png */,
+				E3B683B318EFCDFA00CD8749 /* Default-Portrait@2x~ipad.png */,
+				E3B683B418EFCDFA00CD8749 /* Default-Portrait~ipad.png */,
+				E3B683B518EFCDFA00CD8749 /* Default@2x~iphone.png */,
+				E3B683B618EFCDFA00CD8749 /* Default~iphone.png */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		E3B683B718EFCDFA00CD8749 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683B818EFCDFA00CD8749 /* camera.html */,
+				E3B683B918EFCDFA00CD8749 /* cordova-2.2.0.js */,
+				E3B683BA18EFCDFA00CD8749 /* css */,
+				E3B683BC18EFCDFA00CD8749 /* demo.js */,
+				E3B683BD18EFCDFA00CD8749 /* disableTransition.js */,
+				E3B683BE18EFCDFA00CD8749 /* exercisetracker.js */,
+				E3B683BF18EFCDFA00CD8749 /* home.html */,
+				E3B683C018EFCDFA00CD8749 /* images */,
+				E3B683C718EFCDFA00CD8749 /* img */,
+				E3B683C918EFCDFA00CD8749 /* index copy.rtf */,
+				E3B683CA18EFCDFA00CD8749 /* index.html */,
+				E3B683CB18EFCDFA00CD8749 /* index1.html */,
+				E3B683CC18EFCDFA00CD8749 /* index2.html */,
+				E3B683CD18EFCDFA00CD8749 /* jquery-1.7.2.min.js */,
+				E3B683CE18EFCDFA00CD8749 /* jquery.mobile-1.1.0.min.css */,
+				E3B683CF18EFCDFA00CD8749 /* jquery.mobile-1.1.0.min.js */,
+				E3B683D018EFCDFA00CD8749 /* jquery.ui.map.js */,
+				E3B683D118EFCDFA00CD8749 /* js */,
+				E3B683D418EFCDFA00CD8749 /* json2.js */,
+				E3B683D518EFCDFA00CD8749 /* map.html */,
+				E3B683D618EFCDFA00CD8749 /* mapoverlay.js */,
+				E3B683D718EFCDFA00CD8749 /* myapp.js */,
+				E3B683D818EFCDFA00CD8749 /* PhoneDialer.js */,
+				E3B683D918EFCDFA00CD8749 /* res */,
+				E3B683EA18EFCDFA00CD8749 /* setting.js */,
+				E3B683EB18EFCDFA00CD8749 /* spec */,
+				E3B683F418EFCDFA00CD8749 /* spec.html */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		E3B683BA18EFCDFA00CD8749 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683BB18EFCDFA00CD8749 /* index.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		E3B683C018EFCDFA00CD8749 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683C118EFCDFA00CD8749 /* ajax-loader.gif */,
+				E3B683C218EFCDFA00CD8749 /* ajax-loader.png */,
+				E3B683C318EFCDFA00CD8749 /* icons-18-black.png */,
+				E3B683C418EFCDFA00CD8749 /* icons-18-white.png */,
+				E3B683C518EFCDFA00CD8749 /* icons-36-black.png */,
+				E3B683C618EFCDFA00CD8749 /* icons-36-white.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		E3B683C718EFCDFA00CD8749 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683C818EFCDFA00CD8749 /* logo.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		E3B683D118EFCDFA00CD8749 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683D218EFCDFA00CD8749 /* app.js */,
+				E3B683D318EFCDFA00CD8749 /* index.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		E3B683D918EFCDFA00CD8749 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683DA18EFCDFA00CD8749 /* icon */,
+				E3B683E018EFCDFA00CD8749 /* screen */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		E3B683DA18EFCDFA00CD8749 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683DB18EFCDFA00CD8749 /* ios */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		E3B683DB18EFCDFA00CD8749 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683DC18EFCDFA00CD8749 /* icon-57-2x.png */,
+				E3B683DD18EFCDFA00CD8749 /* icon-57.png */,
+				E3B683DE18EFCDFA00CD8749 /* icon-72-2x.png */,
+				E3B683DF18EFCDFA00CD8749 /* icon-72.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		E3B683E018EFCDFA00CD8749 /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683E118EFCDFA00CD8749 /* ios */,
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
+		E3B683E118EFCDFA00CD8749 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683E218EFCDFA00CD8749 /* screen-ipad-landscape-2x.png */,
+				E3B683E318EFCDFA00CD8749 /* screen-ipad-landscape.png */,
+				E3B683E418EFCDFA00CD8749 /* screen-ipad-portrait-2x.png */,
+				E3B683E518EFCDFA00CD8749 /* screen-ipad-portrait.png */,
+				E3B683E618EFCDFA00CD8749 /* screen-iphone-landscape-2x.png */,
+				E3B683E718EFCDFA00CD8749 /* screen-iphone-landscape.png */,
+				E3B683E818EFCDFA00CD8749 /* screen-iphone-portrait-2x.png */,
+				E3B683E918EFCDFA00CD8749 /* screen-iphone-portrait.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		E3B683EB18EFCDFA00CD8749 /* spec */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683EC18EFCDFA00CD8749 /* helper.js */,
+				E3B683ED18EFCDFA00CD8749 /* index.js */,
+				E3B683EE18EFCDFA00CD8749 /* lib */,
+			);
+			path = spec;
+			sourceTree = "<group>";
+		};
+		E3B683EE18EFCDFA00CD8749 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683EF18EFCDFA00CD8749 /* jasmine-1.2.0 */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		E3B683EF18EFCDFA00CD8749 /* jasmine-1.2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				E3B683F018EFCDFA00CD8749 /* jasmine-html.js */,
+				E3B683F118EFCDFA00CD8749 /* jasmine.css */,
+				E3B683F218EFCDFA00CD8749 /* jasmine.js */,
+				E3B683F318EFCDFA00CD8749 /* MIT.LICENSE */,
+			);
+			path = "jasmine-1.2.0";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -27,14 +489,47 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
+				es,
+				se,
 			);
 			mainGroup = E3B6834F18EFCD5300CD8749;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E3B6838C18EFCDFA00CD8749 /* Products */;
+					ProjectRef = E3B6838B18EFCDFA00CD8749 /* CordovaLib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E3B683F718EFCDFB00CD8749 /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = E3B683F618EFCDFB00CD8749 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXVariantGroup section */
+		E3B683A518EFCDFA00CD8749 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3B683A618EFCDFA00CD8749 /* de */,
+				E3B683A718EFCDFA00CD8749 /* en */,
+				E3B683A818EFCDFA00CD8749 /* es */,
+				E3B683AE18EFCDFA00CD8749 /* se */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E3B6835418EFCD5300CD8749 /* Debug */ = {

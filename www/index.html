@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>My Rx</title>
+	<script type="text/javascript" src="setting.js"></script>
+	<script type="text/javascript" src="cordova-2.2.0.js"></script>
+	<script type="text/javascript" src="json2.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script type="text/javascript" src="myapp.js"></script>
+	<style>
+		.ui-dialog  .ui-header .ui-btn-icon-notext  { display:none;} 
+	</style>
+</head>
+<body>
+	<!-- Start of Login page -->
+	<div data-role="page" id="login_page">
+		<div data-role="header" data-theme="a">
+			<h1>MyRx</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#login_page" data-transition="none" data-icon="home" data-theme="b">Login</a></li>
+					<li><a href="#about_page" data-transition="none" data-icon="plus" data-theme="e">About</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="content" data-theme="d">
+			<h2>Member Login</h2>	
+			<form id="loginForm" name="loginForm">
+				<div data-role="fieldcontain" class="ui-hide-label">
+					<label for="email">Email</label>
+					<input type="text" name="email" id="email" placeholder="Enter your Email"/>
+				</div>
+				<div data-role="fieldcontain" class="ui-hide-label">
+					<label for="password">Password</label>
+					<input type="password" name="password" id="password" placeholder="Enter your Password"/>
+				</div>
+				<button data-theme="d" data-role="button" id="submitButton">Login</button>
+			</form>			
+		</div>
+	</div>
+	<!-- End Login Page -->
+	
+	<!-- Start of About page -->
+	<div data-role="page" id="about_page">
+		<div data-role="header" data-theme="a">
+			<h1>MyRx</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#login_page" data-transition="none" data-icon="home" data-theme="b">Login</a></li>
+					<li><a href="#about_page" data-transition="none" data-icon="plus" data-theme="e">About</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="content" data-theme="d">
+			<p>Welcome to the <em>MyRx</em> app </p>
+			<p><em>MyRx</em> app is developed for PoC purpose and can be extended to any business application.</p>
+			<p text-align="justify">The purpose of this app is to demonstrate a high-level mobile framework that can be easily ported into different mobile platforms</p>
+			<p>For any comments and feedback, please reach out to me at mborgohain@galaxesolutions.com</p>
+		</div>
+  		<div data-role="footer" data-position="fixed" data-theme="a">
+        	<h1>&#169; GalaxE.Solutions</h1>
+   	 	</div>		
+	</div>
+	<!-- End of About page -->
+			
+	<div data-role="dialog" id="dialog" data-theme="b">
+  		<div data-role="header" data-theme="b">
+    		<h1>Notification</h1>
+  		</div>    
+  		<div data-role="content" id="reminderContent" data-theme="e">
+  			<h1>Refill Reminder</h1>
+  			<p id="noOfReminders">You have following prescriptions ready for <em>Refill</em>. Please visit <em>Order Refill </em>page.</p>
+  			<br/>
+			<div id="reminderMsg">
+            </div>                        
+  		</div>    
+  		<br/>
+  		<div data-role="footer" data-theme="b">
+        	<a data-icon="check" data-role="button" id="closeReminder">Continue to Home</a>
+   	 	</div>
+	</div>	
+</body>
+</html>

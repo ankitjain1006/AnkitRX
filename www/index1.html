@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Device Properties Example</title>
+
+    <script type="text/javascript" charset="utf-8" src="cordova-2.2.0.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+var center;
+var map = null;
+
+function Newinitialize(lat,lng) {
+//alert("ani");
+    center = new google.maps.LatLng(lat,lng);
+    alert(center);
+    var myOptions = {
+        zoom: 14,
+        center: center,
+        mapTypeId: google.maps.MapTypeId.SATELLITE
+    }
+    map = new google.maps.Map(document.getElementById("map_canvasRoast"), myOptions);
+//alert("adsfasdf");
+}
+
+function detectBrowser() {
+    var useragent = navigator.userAgent;
+    var mapdivMap = document.getElementById("map_canvasRoast");
+    //alert("asdf");
+    if (useragent.indexOf('iPhone') != -1 || useragent.indexOf('Android') != -1 ) {
+        mapdivMap.style.width = '50%';
+        mapdivMap.style.height = '50%';
+    }else {
+        mapdivMap.style.width = '600px';
+        mapdivMap.style.height = '800px';
+    }
+}
+
+function goMap(){
+    if(navigator.geolocation) {
+        detectBrowser();
+        Newinitialize(52.636161,-1.133065);
+        //alert("MOnu");
+    }else{
+        detectBrowser();
+        Newinitialize(52.636161,-1.133065);
+    }
+    //alert("Monuasdfadf");
+    //return false;
+    $.mobile.changePage($("#roast_map"));
+    //return false;
+}
+$('#roast_map').on('pageshow', function(event) {
+    alert("Ani");
+});
+
+$('#roast_map').on('pageload', function(event) {
+    alert("pageload");
+});
+
+$('#roast_map').on('pagechange', function(event) {
+    alert("pagechange");
+});
+$('#roast_map').on('pagecreate', function(event) {
+    alert("pagecreate");
+});
+$('#roast_map').on('pageinit', function(event) {
+    alert("pageinit");
+});
+</script>
+        </head>
+  <body>
+  <div data-role="page" id="home" style="width:100%; height:100%;">
+<div data-role="header">
+<div class="ui-title-frontpage">
+<h2>Leicester Sunday Roasts</h2>
+</div>
+</div>
+
+<div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="a">
+    <li data-role="list-divider">Places</li>
+    <li><a href="#roast-list" data-transition="slide">List places</a></li>
+    <li><a href="#" data-transition="slide" onclick="goMap()">View on map</a></li>
+    <li class="addMap"><a href="#add_map"  data-transition="slide">Add Review</a></li>
+    </ul>
+</div>
+</div>
+<div data-role="page" id="roast_map">
+    <div data-role="header" data-position="fixed"><h2>Sunday Roasts</h2></div>
+    <div data-role="content">
+        <div id="map_canvasRoast1"></div>
+    </div>
+</div>
+<div id="map_canvasRoast" style="width:100; height:100;"></div>
+  </body>
+</html>
